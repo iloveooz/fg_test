@@ -5,7 +5,10 @@ add_definitions("-std=c++11")
 
 set(CMAKE_BUILD_TYPE Debug)
 
-set(SRC src/main.cpp)
+set(SRC src/main.cpp
+		src/Game.cpp
+		src/Window.cpp
+		src/WindowManager.cpp)
 
 add_executable(fgwm.exe ${SRC})
 
